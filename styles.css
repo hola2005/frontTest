@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #444;
+}
+
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005fa3;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+figure {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 10px;
+}
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+h2,
+h3 {
+  font-size: 1.5em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+ul,
+ol {
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005fa3;
+}
+body {
+  background-color: #eae7dc;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+/* Загальний стиль для секції з формою */
+form {
+  background-image: url("images/cat-background.jpg"); /* Змінити на вашу картинку */
+  background-size: cover; /* Щоб картинка покривала весь блок */
+  background-position: center; /* Центруємо зображення */
+  border-radius: 10px; /* Згладжені кути */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Легка тінь для об'єму */
+  padding: 20px; /* Відступи всередині форми */
+  color: #fff; /* Білий текст для контрасту */
+  width: 80%; /* Задаємо ширину форми */
+  max-width: 500px; /* Обмежуємо максимальну ширину */
+  margin: 20px auto; /* Центруємо форму */
+}
+
+/* Поля вводу */
+input[type="text"],
+input[type="radio"],
+input[type="checkbox"],
+button {
+  display: block; /* Розташовуємо елементи в стовпчик */
+  margin: 10px auto; /* Відступи між полями */
+  padding: 10px; /* Відступи всередині полів */
+  border: none; /* Прибираємо стандартні бордюри */
+  border-radius: 5px; /* Згладжені кути */
+  width: 90%; /* Ширина полів */
+  max-width: 400px; /* Обмежуємо ширину */
+}
+
+/* Кнопка */
+button {
+  background-color: #ff6f61; /* Яскравий фон кнопки */
+  color: white; /* Колір тексту */
+  font-size: 1em; /* Розмір тексту */
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #ff3f31; /* Зміна кольору при наведенні */
+  transform: scale(1.05); /* Легка анімація збільшення */
+}
+
+/* Заголовки форми */
+form legend {
+  font-size: 1.5em; /* Збільшений шрифт для заголовків */
+  font-weight: bold; /* Жирний текст */
+  margin-bottom: 10px;
+}
+
+/* Текст всередині форми */
+form label {
+  font-size: 1em;
+  margin: 5px 0;
+  display: block;
+}
